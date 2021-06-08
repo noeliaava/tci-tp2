@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+main {
+    background-image: url("img/background_tv.png");
+    background-color: #ffffff;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    position: absolute;
+    height: 140vh;
+}
+
+.main-container {
+    margin: 6em 18em 6em 6em;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h1::before{
+    content: "";
+    background: #00ced1;
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    border-radius: 20px; 
+    box-shadow: 0px 12px 10px -8px #4e4e4e;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding-top: 5%;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits-item {
+    font-size: .8em;
+    color: #008486;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
